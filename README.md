@@ -1,3 +1,9 @@
+```
+Disclaimer: With DiscordJS-V13 entering deprecation, eventually this code will no longer work. People are free to update things and create issues and more to resolve those issues as they arise. That is the point of open source :]
+
+I will help where and when I can, I promise as of publishing, everything works if you do it right.
+```
+
 # Dark Bot
 
 **The all-in-one, self-hosted Discord bot built for real communities.**
