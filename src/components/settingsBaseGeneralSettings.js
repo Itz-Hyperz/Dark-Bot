@@ -1,0 +1,87 @@
+module.exports = async function(client, con, interaction, data, language, gohome) {
+    let buttons = new client.discord.MessageActionRow()
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.options)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBaseDisabled1')
+        .setDisabled(true)
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.updateTheme)
+        .setStyle('PRIMARY')
+        .setCustomId('settingsBaseThemeColorUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.updateMuted)
+        .setStyle('DANGER')
+        .setCustomId('settingsBaseMuteRoleUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.updateTos)
+        .setStyle('PRIMARY')
+        .setCustomId('settingsBaseToSUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(`🎫 ${language.components.settingsBaseGeneralSettings.maxTickets}`)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBaseMaxTickets')
+    )
+    let buttons2 = new client.discord.MessageActionRow()
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.payment)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBaseDisabled5')
+        .setDisabled(true)
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.paypal)
+        .setStyle('PRIMARY')
+        .setCustomId('settingsBasePaypalUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.cashapp)
+        .setStyle('SUCCESS')
+        .setCustomId('settingsBaseCashappUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.customLink)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBaseCustomUpdate')
+    )
+    let buttons3 = new client.discord.MessageActionRow()
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.moreSettings)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBaseDisabled2')
+        .setDisabled(true)
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.card)
+        .setStyle('PRIMARY')
+        .setCustomId('settingsBaseWelcomeCardUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.privateVCBtn)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBasePrivateVCUpdate')
+    )
+    .addComponents(
+        new client.discord.MessageButton()
+        .setLabel(language.components.settingsBaseGeneralSettings.privateVCCatBtn)
+        .setStyle('SECONDARY')
+        .setCustomId('settingsBasePrivateVCCatUpdate')
+    )
+    interaction.update({ components: [buttons, buttons2, buttons3, gohome] }).catch(function(e) { if(client?.config?.debugmode) console.log(e) });
+};
