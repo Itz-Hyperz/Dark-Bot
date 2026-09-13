@@ -1,0 +1,47 @@
+{
+
+    "workResponses": [
+        { "text": "You cleaned someones house and made ", "amount": 138 },
+        { "text": "You worked at the car wash and made ", "amount": 382 },
+        { "text": "You fried chicken on a grill for the neighbors and made ", "amount": 18 },
+        { "text": "You cleaned the gas station toilets and made ", "amount": 15 },
+        { "text": "You scraped paint off a wall and made ", "amount": 37 },
+        { "text": "You make pizzas for 6 hours and made ", "amount": 75 },
+        { "text": "You washed dishes and made ", "amount": 34 },
+        { "text": "You drove across the country to deliver milk and made ", "amount": 390 },
+        { "text": "You restocked the gas station shelves and made ", "amount": 32 },
+        { "text": "You mopped the floor and made ", "amount": 20 },
+        { "text": "You gave a massage to someone and made ", "amount": 42 },
+        { "text": "You made fun of Jake Hamblin and made ", "amount": 25 },
+        { "text": "You wrote some code and made ", "amount": 150 },
+        { "text": "You played in an E-Sports tournament and made ", "amount": 100 },
+        { "text": "You worked checkout at walmart and made ", "amount": 62 },
+        { "text": "You put together a lawn mower and made ", "amount": 250 },
+        { "text": "You cut somebodies hair and made ", "amount": 25 },
+        { "text": "You did a kids homework for him and made ", "amount": 67 }
+    ],
+
+    "crimeResponses": [
+        { "text": "You beat up a woman in an alley and got ", "amount": 10 },
+        { "text": "You did a drive-by on biggie cheese and made ", "amount": 600 },
+        { "text": "You keyed a car and stole ", "amount": 19 },
+        { "text": "You held up a bank and made ", "amount": 500 },
+        { "text": "You pooped on the neighbors poarch and got ", "amount": 1 }
+    ],
+
+    "winkGifs": [
+        "https://tenor.com/view/mr-bean-wink-wink-winking-rowan-atkinson-gif-15388297",
+        "https://tenor.com/view/friends-joey-tribbiani-matt-le-blanc-wink-gif-15694137",
+        "https://tenor.com/view/the-office-michael-scott-steve-carell-wink-gif-7720100",
+        "https://tenor.com/view/wink-flirty-james-franco-gif-9644828",
+        "https://tenor.com/view/wink-emoji-gif-10802837",
+        "https://tenor.com/view/sexy-wink-rdj-robert-downey-jr-gif-15956626",
+        "https://tenor.com/view/wink-katy-perry-flirty-gif-5060235",
+        "https://tenor.com/view/jake-gyllenhaal-wink-smile-sexy-okay-gif-15428665",
+        "https://tenor.com/view/donald-trump-wink-president-usa-gif-7576941",
+        "https://tenor.com/view/dog-doge-dogo-blink-wink-gif-11385524",
+        "https://tenor.com/view/flirt-wink-eyebrows-milhouse-the-simpsons-gif-5751664",
+        "https://tenor.com/view/dean-supernatural-wink-jensen-ackles-point-gif-5104974"
+    ]
+
+}
