@@ -6,6 +6,8 @@ Dark Bot is a ground-up rewrite of the legendary **HypeBot**. Same ambition. Les
 
 > Multi-guild. Slash commands. Extensions. No shared-hosting gimmicks.
 
+https://github.com/user-attachments/assets/2684589e-cd5b-4327-b3d5-28589a62da95
+
 ---
 
 ## Why Dark Bot
